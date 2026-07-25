@@ -174,10 +174,15 @@ img {
   width: calc(50vw + 4px);
   min-height: 500px;
   margin-left: -4px;
-  border-radius: var(--cb-radius-xl);
   overflow: hidden;
   box-shadow: 0 20px 60px -20px rgba(0,0,0,0.35);
-  clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 85%);
+}
+
+.cs_hero_thumb img {
+  width: 100%;
+  display: block;
+  min-height: 500px;
+  object-fit: cover;
 }
 
 @media (max-width: 991px) {
@@ -185,15 +190,7 @@ img {
     width: 100%;
     min-height: 400px;
     margin-left: 0;
-    clip-path: none;
   }
-}
-
-.cs_hero_thumb img {
-  width: 100%;
-  display: block;
-  min-height: 420px;
-  object-fit: cover;
 }
 
 /* === Inner Page Hero Banners === */
