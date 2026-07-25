@@ -95,6 +95,15 @@ img {
   color: var(--cb-light-blue) !important;
 }
 
+.cs_top_header_right .cs_social_btns a {
+  background-color: rgba(255,255,255,0.15) !important;
+  color: var(--cb-pure-white) !important;
+}
+.cs_top_header_right .cs_social_btns a:hover {
+  background-color: var(--cb-pure-white) !important;
+  color: var(--cb-deep-navy) !important;
+}
+
 .cs_top_header_left .cs_top_nav {
   font-family: var(--cb-font-body) !important;
   font-size: 13px !important;
