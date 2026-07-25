@@ -133,7 +133,7 @@ img {
 .cs_hero_top {
   background: var(--cb-deep-navy) !important;
   padding: 80px 0 100px;
-  clip-path: none !important;
+  clip-path: polygon(50% 0, 100% 0, 102% 100%, 50.5% 80%, 0 100%, 0% 0%);
 }
 
 /* Hide any leftover template elements */
