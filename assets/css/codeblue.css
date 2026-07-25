@@ -36,8 +36,8 @@
   --cb-space-2xl: 65px;
   --cb-space-3xl: 70px;
 
-  --cb-shadow-card: 0 4px 24px -4px rgba(10, 22, 88, 0.08);
-  --cb-shadow-card-hover: 0 12px 32px -4px rgba(10, 22, 88, 0.14);
+  --cb-shadow-card: 0px 5px 22px -6px rgba(131, 131, 131, 0.5);
+  --cb-shadow-card-hover: 0px 5px 22px -6px rgba(131, 131, 131, 0.7);
   --cb-shadow-dark: 0px 3px 10px 0px rgba(0, 0, 0, 0.2);
   --cb-shadow-subtle: 0px 2px 14px -5px rgba(0, 0, 0, 0.5);
   --cb-shadow-elevated: 0px 4px 10px 1px rgba(0, 0, 0, 0.54);
@@ -53,7 +53,8 @@ body {
   font-family: var(--cb-font-body) !important;
   color: var(--cb-near-black) !important;
   background: var(--cb-pure-white) !important;
-  line-height: 1.7;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -63,8 +64,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  color: #555;
-  line-height: 1.8;
+  color: var(--cb-near-black);
+  line-height: 24px;
 }
 
 a {
@@ -142,8 +143,10 @@ img {
 .cs_hero_title {
   font-family: var(--cb-font-heading) !important;
   color: var(--cb-pure-white) !important;
-  font-size: 52px !important;
-  line-height: 1.15;
+  font-size: 60px !important;
+  font-weight: 600;
+  line-height: 54px;
+  letter-spacing: 0.2px;
   margin-bottom: 20px;
 }
 
@@ -254,8 +257,10 @@ section {
 .cs_section_title {
   font-family: var(--cb-font-heading) !important;
   color: var(--cb-near-black) !important;
-  font-size: 44px !important;
-  line-height: 1.25;
+  font-size: 38px !important;
+  font-weight: 600;
+  line-height: 34.2px;
+  letter-spacing: 0.2px;
 }
 
 /* === Cards === */
@@ -292,7 +297,10 @@ section {
 }
 
 .cs_card_title {
-  font-size: 20px !important;
+  font-family: var(--cb-font-body) !important;
+  font-size: 19px !important;
+  font-weight: 500;
+  letter-spacing: 0.2px;
   margin-bottom: 10px;
 }
 
@@ -331,14 +339,18 @@ section {
 }
 
 .cs_iconbox_title {
-  font-size: 24px !important;
+  font-family: var(--cb-font-body) !important;
+  font-size: 19px !important;
+  font-weight: 500;
+  letter-spacing: 0.2px;
   margin-bottom: 12px;
 }
 
 .cs_iconbox_subtitle {
+  font-family: var(--cb-font-body) !important;
   font-size: 16px;
   color: #555;
-  line-height: 1.8;
+  line-height: 24px;
   margin: 0;
 }
 
