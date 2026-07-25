@@ -130,18 +130,6 @@ img {
   background: transparent !important;
 }
 
-.cs_hero_top {
-  background: var(--cb-deep-navy) !important;
-  padding: 80px 0 100px;
-  clip-path: polygon(50% 0, 100% 0, 102% 100%, 50.5% 80%, 0 100%, 0% 0%);
-}
-
-/* Hide any leftover template elements */
-.cs_hero_shape1,
-.cs_hero_bottom {
-  display: none !important;
-}
-
 .cs_hero_title {
   font-family: var(--cb-font-heading) !important;
   color: var(--cb-pure-white) !important;
@@ -170,27 +158,9 @@ img {
   color: var(--cb-pure-white) !important;
 }
 
-.cs_hero_thumb {
-  width: calc(50vw + 4px);
-  min-height: 500px;
-  margin-left: -4px;
-  overflow: hidden;
-  box-shadow: 0 20px 60px -20px rgba(0,0,0,0.35);
-}
-
-.cs_hero_thumb img {
-  width: 100%;
-  display: block;
-  min-height: 500px;
-  object-fit: cover;
-}
-
-@media (max-width: 991px) {
-  .cs_hero_thumb {
-    width: 100%;
-    min-height: 400px;
-    margin-left: 0;
-  }
+.cs_hero_shape1,
+.cs_hero_bottom {
+  display: none !important;
 }
 
 /* === Inner Page Hero Banners === */
