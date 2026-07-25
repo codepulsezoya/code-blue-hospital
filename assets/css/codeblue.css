@@ -177,7 +177,16 @@ img {
   border-radius: var(--cb-radius-xl);
   overflow: hidden;
   box-shadow: 0 20px 60px -20px rgba(0,0,0,0.35);
-  clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 90%);
+  clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 85%);
+}
+
+@media (max-width: 991px) {
+  .cs_hero_thumb {
+    width: 100%;
+    min-height: 400px;
+    margin-left: 0;
+    clip-path: none;
+  }
 }
 
 .cs_hero_thumb img {
