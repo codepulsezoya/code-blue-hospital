@@ -133,6 +133,7 @@ img {
 .cs_hero_top {
   background: var(--cb-deep-navy) !important;
   padding: 80px 0 100px;
+  clip-path: none !important;
 }
 
 /* Hide any leftover template elements */
@@ -173,7 +174,6 @@ img {
   border-radius: var(--cb-radius-xl);
   overflow: hidden;
   box-shadow: 0 20px 60px -20px rgba(0,0,0,0.35);
-  clip-path: polygon(0 0, 100% 0, 100% 88%, 0 100%);
 }
 
 .cs_hero_thumb img {
